@@ -1,11 +1,16 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import './utils/variables';
+@import './utils/base';
 
-
+//layout
 @import './layout/header.scss';
 @import './layout/footer.scss';
 
-
+//pages
 @import './pages/index.scss';
+@import './pages/desktop-service.scss';
+@import './pages/desktop-member.scss';
+@import './pages/desktop-login.scss';
+@import './pages/desktop-detail.scss';
 
 @import "../../node_modules/bootstrap";

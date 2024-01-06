@@ -1,4 +1,35 @@
-<h1 class="header">我是 header</h1>
-<a href="index.html">index</a>
-<a href="about.html">about</a>
-<a href="contact.html">contact</a>
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="d-flex flex-row">
+                <ul class="d-flex justify-content-between align-items-center list-unstyled my-20">
+                    <li>
+                        <h1><a href="#">logo</a></h1>
+                    </li>
+                    <li class="d-md-block d-none">
+                        <a class="me-40 fw-bold nav-hover" href="#">預約服務</a>
+                        <a class="me-40 fw-bold nav-hover" href="#">成為寵物保姆</a>
+                        <a class="fw-bold nav-hover" href="#">登入</a>
+                    </li>
+                </ul>
+
+                <!--menu-->
+                <div class="d-block d-md-none ms-sm-69">
+                    <a class="btn btn-primary btn-lg disabled" data-bs-toggle="collapse" href="#collapseExample" 
+                    role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <span class="material-symbols-outlined">menu</span>
+                    </a>
+                </div>
+            </div>
+            <div class="btn-menu-collapse d-md-none collapse" id="collapseExample">
+                <a class="d-flex flex-column" data-bs-toggle="collapse" href="#collapseExample" 
+                    role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fw-bold nav-hover">預約服務</i>
+                    <i class="fw-bold nav-hover">成為寵物保姆</i>
+                    <i class="fw-bold nav-hover">登入</i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+

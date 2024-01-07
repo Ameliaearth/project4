@@ -1,0 +1,20 @@
+h1 a{
+    background-image:url(../images/logo.png);
+    display:block;
+    width:100px;
+    height: 50px;
+    text-indent:25em;
+    overflow:hidden;
+    white-space:nowrap;
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.title-color{
+    color:#772400;
+}
+.footer-hover{
+    color:#772400;
+    &:hover{
+        color:#F8B52E;
+    }
+}

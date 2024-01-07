@@ -1,9 +1,44 @@
+*,*::after,*::before{
+    box-sizing:border-box;
+}
+img{
+	max-width:100%;
+	margin:0 auto;
+    vertical-align: middle;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+//icon
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
 
 //margin
 .my-20{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.me-11{
+    margin-right: 11px;
+}
 .me-40{
     margin-right: 40px;
+}
+.mb-114{
+    margin-bottom: 114px;
+}
+
+
+//size
+.fs-14{
+    font-size: 14px;
 }

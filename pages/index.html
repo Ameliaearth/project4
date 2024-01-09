@@ -10,14 +10,249 @@
     <!--google icon-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     
-    <title>index</title>
+    <title>PETPET</title>
   </head>
   <body>
     <%- include('./layout/header'); -%>
+    
+    <!--寵物服務，盡在 PETPET-->
+    <div class="clearfix mb-7">
+      <div class="d-flex flex-column justify-content-center align-items-center flex-lg-row float-lg-start">
+        <img class="avatar-pic me-30" src="../assets/images/index-1.png" alt="寵物服務，盡在 PETPET">
+        <div>
+          <p class="text-center text-lg-start fs-40 fw-bolder mb-3 fs-cor1">寵物服務，盡在 PETPET</p>
+          <h4 class="text-center text-lg-start fw-bolder mb-5 fs-cor1">當您的毛孩有需要時，幫您找到最合適的服務者！</h4>
+          <ul class="d-flex justify-content-start align-items-center list-unstyled">
+            <li>
+              <select class="list1 text-muted mx-auto rounded-start" name="品種" id="品種">
+                <option selected>品種</option>
+                <option value="猴犬">猴犬</option>
+                <option value="阿富汗獵狗">阿富汗獵狗</option>
+                <option value="萬能㹴">萬能㹴</option>
+                <option value="阿比西尼亞貓">阿比西尼亞貓</option>
+                <option value="愛琴海貓">愛琴海貓</option>
+                <option value="澳大利亞霧貓">澳大利亞霧貓</option>
+              </select>
+            </li>
+            <li>
+              <select class="list1 text-muted mx-auto" name="服務" id="服務">
+                <option selected>服務</option>
+                <option value="寄宿">寄宿</option>
+                <option value="美容">美容</option>
+                <option value="寵物行為訓練">寵物行為訓練</option>
+                <option value="到府照顧">到府照顧</option>
+                <option value="遛狗保姆">遛狗保姆</option>
+              </select>
+            </li>
+            <li>
+              <select class="list1 text-muted mx-auto" name="地區" id="地區">
+                <option selected>地區</option>
+                <option value="台北">台北</option>
+                <option value="台中">台中</option>
+                <option value="台南">台南</option>
+                <option value="高雄">高雄</option>
+                <option value="屏東">屏東</option>
+              </select>
+            </li>
+            <li>
+              <button type="button" class="but-style text-white rounded-end list2">搜尋</button>
+            </li>
+          </ul>
+        </div>
+        <!--<div class="d-none d-md-block">
+          <a class="but-style rounded-circle float-end" href="#">TOP</a>
+        </div>-->
+      </div>
+    </div>
+
+    <!--本月熱門保姆-->
+
+      <div class="container mb-7">
+        <div>
+          <div>
+            <h2 class="fw-bolder mb-1 fs-cor1">本月熱門保姆</h2>
+            <h5 class="fw-bolder mb-12 fs-cor1">即時瞭解您的需求，安排最適合毛孩的寵物保姆！</h5>
+          </div>
+          <div class="clearfix">
+            <ul class="list-unstyled d-flex flex-column flex-md-row justify-content-center align-items-center">
+              <li class="col-4 shadow-sm rounded me-30">
+                <div class="pot-relative1">
+                  <img class="article-pic" src="../assets/images/index-2.jpeg" alt="寄宿、美容、寵物行為訓練">
+                  <img class="pot-absolute1" src="../assets/images/person-1.png" alt="Jamie">
+                </div>
+                <div class="px-72">
+                  <h5 class="mt-5 text-center fs-cor1">Jamie</h5>
+                  <h6 class="mb-1 text-center fs-cor1">寄宿、美容、寵物行為訓練</h6>
+                  <div class="d-flex justify-content-center align-items-center mb-12">
+                    <a class="py-12 px-64 but-color text-white rounded" href="#">預約</a>
+                  </div>
+                  <ul class="list-unstyled mb-12 d-flex justify-content-between align-items-center">
+                    <li>
+                      <h6 class="fs-cor1">獲得評價</h6>
+                      <h3 class="fw-bolder me-1 fs-cor1">198<span class="fs-14 text-center">則</span></h3>
+                    </li>
+                    <li>
+                      <h6 class="fs-cor1">已完成訂單</h6>
+                      <h3 class="fw-bolder me-1 fs-cor1">580<span class="fs-14 text-center">件</span></h3>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="col-4 shadow-sm rounded me-30">
+                <div class="pot-relative1">
+                  <img class="article-pic" src="../assets/images/index-3.jpeg" alt="寄宿、美容">
+                  <img class="pot-absolute1" src="../assets/images/person-2.png" alt="Eric">
+                </div>
+                <div class="px-72">
+                  <h5 class="mt-5 text-center fs-cor1">Eric</h5>
+                  <h6 class="mb-1 text-center fs-cor1">寄宿、美容</h6>
+                  <div class="d-flex justify-content-center align-items-center mb-12">
+                    <a class="py-12 px-64 but-color text-white rounded" href="#">預約</a>
+                  </div>
+                  <ul class="list-unstyled mb-12 d-flex justify-content-between align-items-center">
+                    <li>
+                      <h6 class="fs-cor1">獲得評價</h6>
+                      <h3 class="fw-bolder me-1 fs-cor1">76<span class="fs-14 text-center">則</span></h3>
+                    </li>
+                    <li>
+                      <h6 class="fs-cor1">已完成訂單</h6>
+                      <h3 class="fw-bolder me-1 fs-cor1">208<span class="fs-14 text-center">件</span></h3>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="col-4 shadow-sm rounded">
+                <div class="pot-relative1">
+                  <img class="article-pic" src="../assets/images/index-4.jpeg" alt="美容、寵物行為訓練">
+                  <img class="pot-absolute1" src="../assets/images/person-3.png" alt="Yvonne">
+                </div>
+                <div class="px-72">
+                  <h5 class="mt-5 text-center fs-cor1">Yvonne</h5>
+                  <h6 class="mb-1 text-center fs-cor1">美容、寵物行為訓練</h6>
+                  <div class="d-flex justify-content-center align-items-center mb-12">
+                    <a class="py-12 px-64 but-color text-white rounded" href="#">預約</a>
+                  </div>
+                  <ul class="list-unstyled mb-12 d-flex justify-content-between align-items-center">
+                    <li>
+                      <h6 class="fs-cor1">獲得評價</h6>
+                      <h3 class="fw-bolder me-1 fs-cor1">52<span class="fs-14 text-center">則</span></h3>
+                    </li>
+                    <li>
+                      <h6 class="fs-cor1">已完成訂單</h6>
+                      <h3 class="fw-bolder me-1 fs-cor1">196<span class="fs-14 text-center">件</span></h3>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+    <!--線上預約-->
+    <div class="clearfix">
+      <div class="container mb-7">
+        <div class="d-flex flex-column">
+          <div>
+            <h2 class="fw-bolder mb-1 fs-cor1">線上預約</h2>
+            <h5 class="fw-bolder mb-12 fs-cor1">即時瞭解您的需求，安排最適合毛孩的寵物保姆！</h5>
+          </div>
+          <div class="d-flex flex-column flex-md-row justify-content-md-start align-items-md-center">
+            <div class="d-flex flex-column flex-md-row justify-content-md-start align-items-md-center off-me-6">
+              <ul class="list-unstyled d-flex flex-column flex-md-row justify-content-md-start align-items-md-center off-me-6">
+                <li class="off-me-6 reserve-pot1">
+                  <a href="desktop-service.html"><img class="rounded list3" src="../assets/images/index-5.jpeg" alt="寵物寄宿"></a>
+                  <h4 class="fw-bolder text-white reserve-pot2">寵物寄宿</h4>
+                </li>
+                <li class="reserve-pot1">
+                  <a href="#"><img class="rounded list4" src="../assets/images/index-6.jpeg" alt="寵物美容"></a>
+                  <h4 class="fw-bolder text-white reserve-pot2">寵物美容</h4>
+                </li>
+              </ul>
+              <ul class="list-unstyled">
+                <li class="off-mb-6 reserve-pot1">
+                  <a href="#"><img class="rounded list5" src="../assets/images/index-7.jpeg" alt="到府照顧"></a>
+                  <h4 class="fw-bolder text-white reserve-pot2">到府照顧</h4>
+                </li>
+                <li class="reserve-pot1">
+                  <a href="#"><img class="rounded list5" src="../assets/images/index-8.jpeg" alt="遛狗保姆"></a>
+                  <h4 class="fw-bolder text-white reserve-pot2">遛狗保姆</h4>
+                </li>
+              </ul>
+            </div>
+            <ul class="list-unstyled">
+              <li class="reserve-pot1">
+                <a href="#"><img class="rounded list6" src="../assets/images/index-3.jpeg" alt="行為訓練"></a>
+                <h4 class="fw-bolder text-white reserve-pot2">行為訓練</h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--PETPET目前已有-->
+    <div class="clearfix">
+      <div class="position-relative mb-7">
+        <div class="list7">
+          <!--<img class="position-absolute list7" src="../assets/images/index-9.jpeg" alt="PETPET目前已有">-->
+        </div>
+        <div class="container">
+          <div class="pt-7 title1 position-absolute">
+            <p class="text-white fw-bolder fs-40 mb-100">PETPET目前已有</p>
+            <ul class="list-unstyled d-flex justify-content-start">
+              <li class="border-start border-white">
+                <p class="text-white fw-bolder fs-48 ms-3 me-155">5278</p>
+                <h5 class="text-white fw-bolder ms-3">人使用 PETPET</h5>
+              </li>
+              <li class="border-start border-white">
+                <p class="text-white fw-bolder fs-48 ms-3 me-155">580</p>
+                <h5 class="text-white fw-bolder ms-3">人成為寵物保母</h5>
+              </li>
+              <li class="border-start border-white">
+                <p class="text-white fw-bolder fs-48 ms-3">10000+</p>
+                <h5 class="text-white fw-bolder ms-3">已完成服務</h5>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--預約流程-->
+    <div class="clearfix">
+      <div class="container mb-7">
+        <div class="row">
+          <div>
+            <h2 class="fw-bolder mb-1 fs-cor1">預約流程</h2>
+            <h5 class="fw-bolder mb-12 fs-cor1">輕鬆三步驟，立即獲取最佳服務！</h5>
+          </div>
+          <ul class="list-unstyled d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
+            <li class="col-12 col-md-4">
+              <h5 class="fw-bolder mb-12 fs-cor1">1.查詢想要的服務</h5>
+              <img src="../assets/images/index-10.png" alt="查詢想要的服務">
+            </li>
+            <li class="col-12 col-md-4">
+              <h5 class="fw-bolder mb-12 fs-cor1">2.找到合適的保姆</h5>
+              <img src="../assets/images/index-11.png" alt="找到合適的保姆">
+            </li>
+            <li class="col-12 col-md-4">
+              <h5 class="fw-bolder mb-12 fs-cor1">3.填寫資料完成預約</h5>
+              <img src="../assets/images/index-12.png" alt="填寫資料完成預約">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>
+
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  
   </body>
 </html>
 

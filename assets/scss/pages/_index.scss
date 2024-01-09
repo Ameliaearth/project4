@@ -1,3 +1,6 @@
+//background-color
+.bg-cor{
+}
 //but
 .but-style{
     background-color: #D54100;
@@ -52,6 +55,10 @@
     background-size:cover;
     background-position:center center;
     object-fit:cover;
+    opacity: 0.7;
+    &:hover{
+        opacity:1;
+    }
 }
 .list4{
     display:block;
@@ -61,6 +68,10 @@
     background-size:cover;
     background-position:center center;
     object-fit:cover;
+    opacity: 0.7;
+    &:hover{
+        opacity:1;
+    }
 }
 .list5{
     display:block;
@@ -70,6 +81,10 @@
     background-size:cover;
     background-position:center center;
     object-fit:cover;
+    opacity: 0.7;
+    &:hover{
+        opacity:1;
+    }
 }
 .list6{
     display:block;
@@ -79,19 +94,25 @@
     background-size:cover;
     background-position:center center;
     object-fit:cover;
+    opacity: 0.7;
+    &:hover{
+        opacity:1;
+    }
 }
 .list7{
-    top:0;
-    left:0;
-    width: 100%;
+    background-image: url(../images/index-9.jpeg);
+    display:block;
+    max-width: 100%;
     height: 584px;
+    background-size:cover;
+    background-position:center center;
     object-fit:cover;
 }
-.list8{
-    padding-top: 80px;
-    padding-left: 85px;
-    margin-bottom: 100px;
+.title1{
+    top:0;
+
 }
+
 
 //position
 .pot-relative1{
@@ -108,7 +129,7 @@
 .reserve-pot2{
     position:absolute;
     z-index: 1;
-    left:50%;
+    left:30%;
     top:50%;
 }
 

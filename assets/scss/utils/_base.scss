@@ -59,9 +59,22 @@ table {
 }
 
 //padding
+.pt-36{
+    padding-top: 36px;
+}
+.pl-12{
+    padding-left: 12px;
+}
+.pl-85{
+    padding-left: 85px;
+}
 .py-12{
     padding-top: 12px;
     padding-bottom: 12px;
+}
+.py-15{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .px-64{
     padding-left: 64px;
@@ -71,9 +84,11 @@ table {
     padding-left: 72px;
     padding-right: 72px;
 }
-.pb-300{
-    padding-bottom: 300px;
+.pb-36{
+    padding-bottom: 36px;
 }
+
+
 
 
 //size

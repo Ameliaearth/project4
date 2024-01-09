@@ -27,7 +27,10 @@ table {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.me-6{
+.mt-20{
+    margin-top: 20px;
+}
+.off-me-6{
     margin-right: 6px;
 }
 .me-11{
@@ -48,15 +51,22 @@ table {
 .mb-12{
     margin-bottom: 12px;
 }
+.mb-32{
+    margin-bottom: 32px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-57{
+    margin-bottom: 57px;
+}
 .mb-100{
     margin-bottom: 100px;
 }
 .mb-114{
     margin-bottom: 114px;
 }
-.mb-300{
-    margin-bottom: 300px;
-}
+
 
 //padding
 .pt-36{
@@ -75,6 +85,10 @@ table {
 .py-15{
     padding-top: 15px;
     padding-bottom: 15px;
+}
+.py-16{
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 .px-64{
     padding-left: 64px;
@@ -105,4 +119,7 @@ table {
 //color
 .fs-cor1{
     color:#772400;
+}
+.fs-cor2{
+    color:#D54100;
 }

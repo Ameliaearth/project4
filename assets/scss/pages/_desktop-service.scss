@@ -1,4 +1,4 @@
-
+//預約
 .material-symbols-outlined {
     font-variation-settings:
     'FILL' 0,
@@ -6,7 +6,6 @@
     'GRAD' 0,
     'opsz' 24
 }
-
 .main-pic{
     display:block;
     width: 100%;
@@ -16,7 +15,6 @@
     background-position:center center;*/
     object-fit:cover;
 }
-
 .bg-white{
     background-color: #FAFAFA;
 }
@@ -28,6 +26,8 @@
         color:#fff;
     }
 }
+
+//input
 .form-control{
     display: block;
     width: 100px;

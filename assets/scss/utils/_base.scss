@@ -32,13 +32,22 @@ table {
 .bg-cor{
     background-color: #F8B52E;
 }
+.bg-cor2{
+    background-color: #D54100;
+}
 
 //size
+.fs-14{
+    font-size: 14px;
+}
 .fs-40{
     font-size: 40px;
 }
 
 //margin
+.mr-18{
+    margin-right: 18px;
+}
 .mr-30{
     margin-right: 30px;
 }
@@ -48,17 +57,39 @@ table {
 .mr-60{
     margin-right: 60px;
 }
+.mb-11{
+    margin-bottom: 11px;
+}
 .mb-12{
     margin-bottom: 12px;
 }
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
 .mb-57{
     margin-bottom: 57px;
+}
+.mb-60{
+    margin-bottom: 60px;
+}
+.mb-188{
+    margin-bottom: 188px;
 }
 
 //padding
 .py-12{
     padding-top: 12px;
     padding-bottom: 12px;
+}
+.py-14{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.pe-43{
+    padding-right: 43px;
 }
 
 
@@ -94,9 +125,7 @@ table {
 .mb-32{
     margin-bottom: 32px;
 }
-.mb-40{
-    margin-bottom: 40px;
-}
+
 
 .mb-100{
     margin-bottom: 100px;
@@ -138,9 +167,7 @@ table {
 
 
 //size
-.fs-14{
-    font-size: 14px;
-}
+
 .fs-40{
     font-size: 40px;
 }

@@ -1,7 +1,93 @@
-//background-color
-.bg-cor{
-    background-color: #F8B52E;
+//header
+.header-fig{
+    display:block;
+    object-fit:cover;
+    max-width: 100%;
+    height: 736px;
+    /*overflow:hidden;
+    background-size:cover;
+    background-position:center center;*/
+    @media(max-width:768px){
+        width: 210px;
+        height: 288px;
+    }
+    @media(max-width:372px){
+        width: 375px;
+        height: 325px;
+    }
 }
+.btn-color{
+    background-color:#D54100;
+}
+
+//card
+.border-solid{
+    display:block;
+    object-fit:cover;
+    overflow:hidden;
+    background-size:cover;
+    background-position:center center;
+    border:5px solid #fff;
+}
+.pic-photo{
+    margin-top: -50px;
+}
+.card-350{
+    width: 350px;
+}
+.pic-width{
+    width: 100%;
+    height: 150px;
+    display:block;
+    object-fit:cover;
+    overflow:hidden;
+    background-size:cover;
+    background-position:center center;
+}
+.mb-md-12{
+    margin-bottom: 12px;
+}
+
+//線上預約
+.opacity-7{
+    cursor: pointer;
+    opacity: 0.7;
+    &:hover{
+        opacity:1;
+    }
+}
+.section-title{
+    position:absolute;
+    font-size: 24px;
+    top:50%;
+    left:30%;
+    z-index: 1;
+}
+.section-fig{
+    display:block;
+    object-fit:cover;
+    overflow:hidden;
+    background-size:cover;
+    background-position:center center;
+}
+
+//PETPET目前已有
+.list7{
+    background-image: url(../images/index-9.jpeg);
+    display:block;
+    max-width: 100%;
+    height: 584px;
+    background-size:cover;
+    background-position:center center;
+    object-fit:cover;
+}
+.section2-title{
+    top:0;
+}
+
+
+
+
 //but
 .but-style{
     background-color: #D54100;
@@ -16,29 +102,6 @@
         background-color: #F8B52E;
     }
 }
-
-//pic
-.avatar-pic{
-    display:block;
-    width: 530px;
-    height: auto;
-    @media(max-width:768px){
-        width: 210px;
-    }
-    @media(max-width:576px){
-        width: 375px;
-    }
-}
-.article-pic{
-    display:block;
-    width: 350px;
-    height: 120px;
-    overflow:hidden;
-    background-size:cover;
-    background-position:center center;
-    object-fit:cover;
-}
-
 .list1{
     padding-top: 11px;
     padding-bottom: 9px;
@@ -47,91 +110,6 @@
 }
 .list2{
     padding:9px 27px;
-}
-.list3{
-    display:block;
-    width: 350px;
-    height: 350px;
-    overflow:hidden;
-    background-size:cover;
-    background-position:center center;
-    object-fit:cover;
-    opacity: 0.7;
-    &:hover{
-        opacity:1;
-    }
-}
-.list4{
-    display:block;
-    width: 303px;
-    height: 350px;
-    overflow:hidden;
-    background-size:cover;
-    background-position:center center;
-    object-fit:cover;
-    opacity: 0.7;
-    &:hover{
-        opacity:1;
-    }
-}
-.list5{
-    display:block;
-    width: 267px;
-    height: 172px;
-    overflow:hidden;
-    background-size:cover;
-    background-position:center center;
-    object-fit:cover;
-    opacity: 0.7;
-    &:hover{
-        opacity:1;
-    }
-}
-.list6{
-    display:block;
-    width: 172px;
-    height: 350px;
-    overflow:hidden;
-    background-size:cover;
-    background-position:center center;
-    object-fit:cover;
-    opacity: 0.7;
-    &:hover{
-        opacity:1;
-    }
-}
-.list7{
-    background-image: url(../images/index-9.jpeg);
-    display:block;
-    max-width: 100%;
-    height: 584px;
-    background-size:cover;
-    background-position:center center;
-    object-fit:cover;
-}
-.title1{
-    top:0;
-
-}
-
-
-//position
-.pot-relative1{
-    position:relative;
-}
-.pot-absolute1{
-    position:absolute;
-    left:40%;
-    top:50%;
-}
-.reserve-pot1{
-    position:relative;
-}
-.reserve-pot2{
-    position:absolute;
-    z-index: 1;
-    left:30%;
-    top:50%;
 }
 
 //margin
@@ -145,12 +123,3 @@
 
 
 
-
-/*.section-title{
-    @media(min-width:768px){
-        text-align:center;
-    }
-    @media(min-width:576px){
-        text-align:center;
-    }
-}*/

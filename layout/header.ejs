@@ -1,7 +1,6 @@
 
-    <div class="container">
+    <!--<div class="container">
         <div class="row d-flex flex-nowrap">
-
                 <ul class="d-flex justify-content-between align-items-center list-unstyled my-20">
                     <li>
                         <h1><a href="#">logo</a></h1>
@@ -13,23 +12,42 @@
                     </li>
                 </ul>
 
-                <!--menu-->
-                <div class="d-md-none btn-menu">
-                    <a  class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" 
+                <div class="container d-md-none btn-menu">
+                    <button  class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" 
                     aria-expanded="false" aria-controls="collapseExample">
                         <span class="material-symbols-outlined menu-color fw-bolder text-center">menu</span>
-                    </a>
+                    </button>
+                
+                    <div class="collapse d-md-none" id="collapseExample">
+                        <div class="card">
+                            <a class="fw-bold nav-hover" href="#">預約服務</a>
+                            <a class="fw-bold nav-hover" href="#">成為寵物保姆</a>
+                            <a class="fw-bold nav-hover" href="#">登入</a>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
-            <div class="collapse d-md-none" id="collapseExample">
-                <div class="card">
-                    <a class="fw-bold nav-hover" href="#">預約服務</a>
-                    <a class="fw-bold nav-hover" href="#">成為寵物保姆</a>
-                    <a class="fw-bold nav-hover" href="#">登入</a>
-                    </a>
-                </div>
-            </div>
         </div>
-    </div>
+    </div>-->
+
+
+
+
+    <nav class="container navbar navbar-expand-md">
+        <h1><a href="#">logo</a></h1>
+        <button class="navbar-toggler collapse right-0 top-0 position-absolute" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMainMenu" 
+        aria-controls="navbarMainMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="material-symbols-outlined menu-color fw-bolder text-center">menu</span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarMainMenu">
+            <ul class="navbar-nav w-100 align-items-center justify-content-md-end">
+                <li class="nav-item mr-40"><a class="fw-bold nav-hover" href="desktop-service.html">預約服務</a></li>
+                <li class="nav-item mr-40"><a class="fw-bold nav-hover" href="#">成為寵物保姆</a></li>
+                <li class="nav-item"><a class="fw-bold nav-hover" href="#">登入</a></li>
+            </ul>
+        </div>
+    </nav>
+
 
 

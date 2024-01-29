@@ -15,7 +15,53 @@
     <body>
         <%- include('./layout/header'); -%>
 
-        <%- include('./layout/footer'); -%>
+        <div class="container">
+            <div class="d-flex align-lg-start">
+                <div class="d-none d-lg-block mr-30">
+                    <img src="../assets/images/index-1.png" alt="img">
+                </div>
+                <ul class="row list-unstyled">
+                    <li>
+                        <h2 class="fsz-color fw-bolder mb-60">登入</h2>
+                    </li>
+                    <li><!--Email-->
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">電子信箱</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
+                        </div>
+                    </li>
+                    <li><!--Password-->
+                        <div class="mb-3">
+                            <label for="inputPassword" class="col-sm-2 col-form-label">密碼</label>
+                            <input type="password" class="form-control" id="inputPassword" placeholder="請輸入密碼">
+                        </div>
+                        <small class="mb-3">忘記密碼</small>
+                    </li>
+                    <li><!--記住我的帳號-->
+                        <div class="col-12">
+                            <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                記住我的帳號
+                            </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="row d-flex mb-40">
+                        <a href="#" class="btn border border-light border-2 col-5 pt-10 me-2">Facebook</a>
+                        <a href="#" class="btn border border-light border-2 col-5 pt-10">Google</a>
+                    </li>
+                    <li>
+                        <button type="button" class="btn btn-danger col-6 mb-2">登入</button>
+                    </li>
+                    <li>
+                        <a href="#" class="fsz-color2">還沒註冊嗎？</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
 
         <script type="module" src="../main.js"></script>
 
